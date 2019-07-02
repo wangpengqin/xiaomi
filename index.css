@@ -140,6 +140,10 @@ a{
     height: 88px;
     padding-right: 15px;
 }
+.ding-center .ding-center-first a:hover{
+    color:#ff6700;
+}
+    
 .ding-right{
     float: right;
     width: 296px;
@@ -1105,6 +1109,9 @@ a{
     text-align: center;
     font-size: 18px;
 }
+.all-bottom1-ge1 .iconfont,.all-bottom1-lastge1 .iconfont{
+    font-size: 26px;
+}
 .all-bottom1 span{
     float: left;
     font-size: 18px;
@@ -1124,27 +1131,35 @@ a{
     margin: 0 auto;
     border-left: 1px solid #e0e0e0;
 }
-.all-bottom2 dl{
-     width: 160px;
+.all-bottom2 ul{
+     /* width: 140px; */
      height: 200px;
-     font-size: 18px;
+     font-size: 12px;
      text-align: left;
      float: left;
+     color: #b0b0b0;
+     overflow: hidden;
      
 }
-.dt{
-    width: 160px;
+.all-bottom2 li{
+    width: 140px;
     height: 22px; 
-    color: #424242;
-    margin-bottom: 26px;
+    color: #757575;
+   
+    margin-bottom: 8px;
     /* background-color: brown; */
+
 }
-.dd{
-    width: 160px;
+.all-bottom2 .first{
+    width: 140px;
     height: 22px; 
     margin-top: 10px;
-    background-color: darkgreen;
-    color: #757575;
+    /* background-color: darkgreen; */
+    color: #424242;
+}
+.all-bottom2-left .first{
+    font-size: 14px;
+    margin-bottom: 26px;
 }
 .tell{
     margin: 0 0 5px;
@@ -1161,13 +1176,17 @@ a{
     width: 200px;
     height: 54px;
 }
+.shijian span{
+    display: block;
+    margin: 0 auto;
+}
 .kefu{
     width: 118px;
     height: 28px;
     font-size: 12px;
     line-height: 28px;
-    border: 1px solid #b0b0b0;
+    border: 1px solid #ff6700;
     text-align: center;
     margin: 0 auto;
+    color: #ff6700;
 }
-
